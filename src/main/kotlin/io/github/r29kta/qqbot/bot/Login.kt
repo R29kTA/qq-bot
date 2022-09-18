@@ -4,13 +4,11 @@ package io.github.r29kta.qqbot.bot
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import net.mamoe.mirai.Bot
 import net.mamoe.mirai.BotFactory
 import net.mamoe.mirai.utils.BotConfiguration
 import net.mamoe.mirai.utils.LoggerAdapters.asMiraiLogger
 import org.slf4j.LoggerFactory
 import org.springframework.boot.CommandLineRunner
-import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import kotlin.system.exitProcess
 
