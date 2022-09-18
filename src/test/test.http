@@ -1,0 +1,9 @@
+POST http://localhost:8081/msg
+Content-Type: application/json
+
+{
+  "target":1033211232,
+  "publisher":"1045247977",
+  "content":"this is msg213",
+  "images": []
+}
